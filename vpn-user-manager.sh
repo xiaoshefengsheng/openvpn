@@ -11,7 +11,7 @@ elif [ $1 == a ]
           	then "exit"
           	else
              echo $USERNAME $PASSWORD >>/etc/openvpn/psw-file
-             echo -e "username: $USERNAME  password: $PASSWORD    \n吾好wiki文档: http://wiki.pipi100.com/pages/viewpage.action?pageId=7570337 或查看钉钉大群VPN文件夹 " | mail -s "WH-VPN" $USERNAME@wuhaotech.com
+             echo -e "username: $USERNAME  password: $PASSWORD    \n吾好wiki文档: http://wiki. 或查看钉钉大群VPN文件夹 " | mail -s "WH-VPN" $USERNAME@qq.com
              /bin/bash /etc/openvpn/transfer.sh
            fi
 elif [ $1 == d ]
